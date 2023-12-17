@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const NavBar = () => {
   // Hover animation for each nav item
@@ -31,22 +32,19 @@ const NavBar = () => {
             )
           )}
         </div>
-        <div className="flex gap-8 items-center col-span-2 justify-end">
-          <motion.p
-            className="hover:underline-offset-4 hover:underline"
-            whileHover="hover"
-            variants={itemVariants}
-          >
-            Login
-          </motion.p>
+        <div className="flex gap-8 items-center cursor-pointer col-span-2 justify-end">
           <motion.div
             className="flex"
             whileHover="hover"
             variants={itemVariants}
           >
-            <p className="rounded-full bg-[#6F1A07] text-white py-2 px-4 text-sm max-w-max">
+            <Link
+              target="_blank"
+              href="https://quickstart-5c65eae2.myshopify.com/admin/oauth/redirect_from_cli?client_id=79fb447bd96780b4f87a53d92d62c80f"
+              className="rounded-full bg-[#6F1A07] text-white py-2 px-4 text-sm max-w-max"
+            >
               Get Started&nbsp;
-            </p>
+            </Link>
           </motion.div>
         </div>
       </div>
