@@ -80,7 +80,7 @@ const SecondSection = () => {
               animate={controlsText}
               variants={fadeInUpVariants}
             >
-              About
+              Empower Your Reviews
             </motion.p>
             <motion.p
               className="text-6xl text-[#F7F3E3]"
@@ -89,7 +89,7 @@ const SecondSection = () => {
               animate={controlsText}
               variants={fadeInUpVariants}
             >
-              Grow with a Digital marketing agency?
+              Transform Customer Feedback into Growth
             </motion.p>
             <motion.p
               className="max-w-md"
@@ -98,9 +98,10 @@ const SecondSection = () => {
               animate={controlsText}
               variants={fadeInUpVariants}
             >
-              Our digital marketing experts have pulled together thousands of
-              successful digital marketing campaigns for businesses looking to
-              increase leads.
+              Our Shopify review app helps you leverage customer insights to
+              enhance product credibility and drive sales. Engage customers with
+              personalized review requests via email and showcase authentic
+              feedback on your store.
             </motion.p>
             <motion.button
               className="font-semibold mt-16 rounded-full bg-[#6F1A07] text-white py-4 px-12 max-w-max"
@@ -110,7 +111,7 @@ const SecondSection = () => {
               variants={fadeInUpVariants}
               whileHover={{ scale: 1.05 }}
             >
-              Learn more
+              Learn More
             </motion.button>
           </div>
           <div className="mx-auto ml-60 py-8 space-y-8 flex flex-col items-center">

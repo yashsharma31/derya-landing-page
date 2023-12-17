@@ -49,15 +49,24 @@ const Footer = () => {
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-5 py-28">
-          <div className="flex col-span-3 flex-col gap-4">
-            <p className="text-2xl pb-8">Logo</p>
-            <p className="text-sm">Subscribe to our weekly newsletter</p>
+          <div className="relative flex col-span-3 flex-col gap-4">
+            <div className="h-20 w-20 absolute rounded-md -mt-1 bg-[#f7f3e3]"></div>
+            <Image
+              className="z-10"
+              src="/logo.png"
+              alt="landing-page"
+              width="80"
+              height="40"
+            />
+            <p className="text-sm mt-6">
+              Join our community for the latest updates and tips
+            </p>
             <input
               className="w-full text-[#ECF0F1] max-w-sm px-6 py-3 rounded-full placeholder:text-[#ECF0F1] placeholder:opacity-50 focus:outline-none"
               placeholder="Enter your email"
             />
             <p className="pt-8 text-sm">
-              Best sales management tool to boost your business.
+              Enhance your Shopify store with authentic customer reviews.
             </p>
             <div className="flex items-center gap-4">
               <Image
@@ -66,34 +75,33 @@ const Footer = () => {
                 width={40}
                 height={40}
               />
-              <p className="text-3xl">hello@derya.com</p>
+              <p className="text-3xl">support@revew.com</p>
             </div>
           </div>
           <div className="col-span-2 grid grid-cols-2 text-sm">
             <div className="space-y-4">
               <h3 className="font-semibold">COMPANY</h3>
               <div className="text-sm space-y-4">
-                <p className="opacity-50 hover:opacity-75">ABOUT</p>
-                <p className="opacity-50 hover:opacity-75">CAREERS</p>
-                <p className="opacity-50 hover:opacity-75">WE&apos;RE HIRING</p>
-                <p className="opacity-50 hover:opacity-75">PRESS</p>
+                <p className="opacity-50 hover:opacity-75">ABOUT US</p>
+                <p className="opacity-50 hover:opacity-75">CONTACT</p>
+                <p className="opacity-50 hover:opacity-75">BLOG</p>
+                <p className="opacity-50 hover:opacity-75">FAQ</p>
                 <p className="opacity-50 hover:opacity-75">TERMS OF SERVICE</p>
                 <p className="opacity-50 hover:opacity-75">PRIVACY POLICY</p>
-                <p className="opacity-50 hover:opacity-75">COOKIE POLICY</p>
               </div>
             </div>
             <div className="space-y-4">
               <h3 className="font-semibold">PRODUCT</h3>
               <div className="space-y-4 text-sm">
-                <p className="opacity-50 hover:opacity-75">SERVICES</p>
-                <p className="opacity-50 hover:opacity-75">PRICING</p>
                 <p className="opacity-50 hover:opacity-75">FEATURES</p>
+                <p className="opacity-50 hover:opacity-75">PRICING</p>
+                <p className="opacity-50 hover:opacity-75">TESTIMONIALS</p>
               </div>
             </div>
           </div>
         </div>
         <div className="flex w-full py-10 border-t justify-center gap-28 text-xs">
-          <p>2023 Derya. Inc. All rights reserved</p>
+          <p>2023 REVEW. All rights reserved</p>
           <p>Design by Yash Sharma</p>
         </div>
       </div>

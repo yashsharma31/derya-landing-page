@@ -77,10 +77,13 @@ const FourthSection = () => {
           animate={controlsText}
           variants={fadeInVariants}
         >
-          <p className="text-5xl pb-4">Let&apos;s discuss your project</p>
+          <p className="text-5xl pb-4">
+            Boost Your Store with Authentic Reviews
+          </p>
           <p>
-            The essential to combine empathy, creativity, and rationality to
-            meet user needs and business success
+            Discover how our Shopify review app can transform your customer
+            feedback into a powerful tool for growth and trust. Let&apos;s
+            elevate your store together!
           </p>
           <button className="rounded-full bg-[#ECF0F1] text-[#6F1A07] py-4 px-12 max-w-max">
             Get Started
@@ -93,6 +96,7 @@ const FourthSection = () => {
           animate={controlsImage}
           variants={slideInVariants}
         >
+          {/* Update or replace the image to match the new theme */}
           <Image
             src="/start.jpg"
             className="rounded-2xl shadow-xl"

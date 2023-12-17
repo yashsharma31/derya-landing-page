@@ -26,16 +26,16 @@ const HeroSection = () => {
           variants={sectionVariants}
         >
           <p className="rounded-full capitalize py-2 px-4 max-w-max bg-[#A8763E] text-sm text-white">
-            We can help you
+            Empower Your Customers
           </p>
           <p className="text-7xl">
-            Grow <span className="font-semibold">faster</span> with our
-            all-in-one marketing platform
+            Enhance <span className="font-semibold">Shopping Experience</span>{" "}
+            with Customer Reviews
           </p>
           <p>
-            We aren&apos;t your average run of the mill website designer. Our
-            services pack a serious punch. We are a Digital Agency for websites
-            that achieve goals.
+            Our review app for Shopify stores enables customers to share their
+            experiences directly through email. Elevate your product credibility
+            and boost sales with genuine feedback.
           </p>
           <motion.div
             className="flex items-center mt-16 gap-8"

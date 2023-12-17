@@ -51,17 +51,19 @@ const ThirdSection = () => {
         variants={fadeInVariants}
       >
         <p className="rounded-full capitalize py-2 px-6 max-w-max bg-[#A8763E] text-sm text-white">
-          Our Service
+          Customer Insights
         </p>
         <p className="text-6xl text-[#2B2118]">
-          We offer the best service for our customers
+          Elevate Your Store with Authentic Reviews
         </p>
         <p className="max-w-lg">
-          Find effective digital reach of your business, powered by human
-          behavior and driven by data.
+          Harness the power of customer feedback to boost your Shopify
+          store&apos;s credibility and sales. Our app makes it easy for
+          customers to share their experiences and for you to showcase genuine
+          reviews.
         </p>
         <button className="rounded-full mt-16 bg-[#6F1A07] text-white py-4 px-12 max-w-max">
-          Learn More
+          Discover How
         </button>
       </motion.div>
       <motion.div
@@ -70,6 +72,7 @@ const ThirdSection = () => {
         animate={controls}
         variants={slideInVariants}
       >
+        {/* Update or replace the image to match the new theme */}
         <Image
           src="/lp-3.jpg"
           className="rounded-3xl shadow-xl"
