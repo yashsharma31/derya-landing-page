@@ -13,9 +13,9 @@ const NavBar = () => {
       initial="hidden"
       animate="visible"
     >
-      <div className="grid grid-cols-8 items-center w-full py-4">
+      <div className="grid grid-cols-8 items-center w-full py-2">
         <motion.div className="text-md col-span-2">
-          <Image src="/logo.png" alt="landing-page" width="80" height="40" />
+          <Image src="/logo.png" alt="landing-page" width="60" height="40" />
         </motion.div>
         <div className="flex max-w-xl justify-between mx-auto w-full col-span-4">
           {["Home", "Features", "Pricing", "Testimonials", "About"].map(

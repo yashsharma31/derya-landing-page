@@ -50,13 +50,13 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-5 py-28">
           <div className="relative flex col-span-3 flex-col gap-4">
-            <div className="h-20 w-20 absolute rounded-md -mt-1 bg-[#f7f3e3]"></div>
+            <div className="h-20 w-20 z-0 absolute rounded-md -mt-1 bg-[#f7f3e3]"></div>
             <Image
-              className="z-10"
+              className="z-20 ml-3"
               src="/logo.png"
               alt="landing-page"
-              width="80"
-              height="40"
+              width="56"
+              height="60"
             />
             <p className="text-sm mt-6">
               Join our community for the latest updates and tips
